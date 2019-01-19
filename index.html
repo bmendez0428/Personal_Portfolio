@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="stylesheet" href="dist/css/app.css">
+  <title>Brandon Mendez Portfolio</title>
+</head>
+<body>
+
+  <header id="particles-js">
+    <div class="intro">
+      <p>Hello, I'm <span class="highlight" data-name="Brandon Mendez"></span><br>
+        Junior Front-End Web Developer</p>
+      <a href="#projects">View my projects</a>
+    </div>
+  </header>
+  <nav class="navigation">
+    <button id="toggle-nav">
+      <i class="fas fa-bars"></i>
+    </button>
+    <ul id="nav-list" class="nav-list">
+      <li><a href="#">HOME</a></li>
+      <li><a href="#about">ABOUT</a></li>
+      <li><a href="#projects">PROJECTS</a></li>
+      <li><a href="#contact">CONTACT</a></li>
+    </ul>
+  </nav>
+  <main>
+    <section id="about" class="about">
+      <h3>About Me</h3>
+      <div class="about-intro-wrapper">
+        <div class="img-container">
+          <img src="images/me2.png" alt="me">
+        </div>
+        <p class="about-intro">
+          <p>
+            I am a first-generation college student attending DePaul University majoring in Information Technology.
+            I graduate March 2019. My interest in the IT field stemmed from when I was 5 years old and my family purchased
+            a home PC with Windows 2000 on it. Ever since then I was known as the IT guy to my family and my friends.
+          </p> <br>
+          <p>
+            My interests include anything tech related, software related, and even photography. I am a believer in 
+            self improvement in all areas in my personal life. I am constantly learning.
+          </p>
+      </div>
+        <hr>
+        <p class="about-passion">
+          I have a constant desire to be challenged and refine my skillsets.
+        </p>
+      </p>
+      <div class="about-icons">
+
+        <div class="icon">
+          <div class=" skills">
+            <i class="fab fa-js"></i>
+          </div>
+          <h4>Technology</h4>
+          <p>html - css3 - javascript - react - sass - gulp</p>
+        </div>
+
+        <div class="icon">
+          <div class="responsive">
+            <i class="fas fa-mobile-alt"></i>
+          </div>
+          <h4>Responsive</h4>
+          <p></p>
+        </div>
+
+        <div class="icon">
+          <div class="modern">
+            <i class="fas fa-laptop-code"></i>
+          </div>
+          <h4>Modern</h4>
+          <p></p>
+        </div>
+
+        <div class="icon">
+          <div class="dynamic">
+            <i class="fas fa-rocket"></i>
+          </div>
+          <h4>Dynamic</h4>
+          <p></p>
+        </div>
+      </div>
+
+      <ul id="skills-list" class="skills-list">
+        <li>
+          <div class="label">html</div>
+          <div class="bar-container">
+            <div class="bar"></div>
+            <span id="value" class="value"></span>
+          </div>
+        </li>
+        <li>
+          <div class="label">css</div>
+          <div class="bar-container">
+            <div class="bar"></div>
+            <span id="value" class="value"></span>
+          </div>
+        </li>
+        <li>
+          <div class="label">javascript</div>
+          <div class="bar-container">
+            <div class="bar"></div>
+            <span id="value" class="value"></span>
+          </div>
+        </li>
+        <li>
+          <div class="label">react</div>
+          <div class="bar-container">
+            <div class="bar"></div>
+            <span id="value" class="value"></span>
+          </div>
+        </li>
+        <li>
+          <div class="label">sass</div>
+          <div class="bar-container">
+            <div class="bar"></div>
+            <span id="value" class="value"></span>
+          </div>
+        </li>
+        <li>
+          <div class="label">node.js</div>
+          <div class="bar-container">
+            <div class="bar"></div>
+            <span id="value" class="value"></span>
+          </div>
+        </li>
+        <li>
+          <div class="label">gulp</div>
+          <div class="bar-container">
+            <div class="bar"></div>
+            <span id="value" class="value"></span>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <section id="projects" class="projects">
+      <h3>PROJECTS</h3>
+      <div class="controls">
+        <button data-filter="all">All</button>
+        <span class="highlighter"></span>
+        <button data-filter=".javascript">Javascript</button>
+        <button data-filter=".jQuery">jQuery</button>
+        <button data-filter=".react">React</button>
+        <button data-filter=".wordpress">WordPress</button> 
+      </div>
+
+      <div class="container">
+        <div class="mix react">
+          <div class="layer">
+            <h4>Bulletin Board App</h4>
+            <strong>Highlights</strong>
+            <ul class="highlights">
+              <li>Make use of moviedb API</li>
+              <li>Transition effects with CSSTransition</li>
+              <li>Responsive</li>
+            </ul>
+            <a href="https://github.com/bmendez0428/Bulletin_Board_React/tree/gh-pages" target="_blank">View Code</a>
+            <a href="http://bmendez0428.github.io/Bulletin_Board_React/" target="_blank">View Demo</a>
+          </div>
+          <img src="images/reactBulletin.png" alt="bulletin board app in react">
+        </div>
+
+        <div class="mix javascript">
+          <div class="layer">
+            <h4>Roll the Dice</h4>
+            <strong>Highlights</strong>
+            <ul class="highlights">
+              <li>Vanilla Js</li>
+              <li>DOM manipulation</li>
+              <li>Handle match logic</li>
+            </ul>
+            <a href="https://github.com/bmendez0428/Roll_dice_game" target="_blank">View Code</a>
+            <a href="https://bmendez0428.github.io/Roll_dice_game/" target="_blank">View Demo</a>
+          </div>
+          <img src="images/rollTheDiceProject.png" alt="simple roll the dice">
+        </div>
+
+        <div class = "mix wordpress">
+          <div class="layer">
+            <h4>Streamline Paving Website</h4>
+            <strong>Highlights</strong>
+            <ul class="highlights">
+              <li>Utilized WordPress CMS</li>
+              <li>Implemented custom HTML, CSS, and PHP</li>
+            </ul>
+            <a href="http://streamlinepaving.com" target="_blank">View Site</a>
+          </div>
+          <img src="images/streamlinePaving.png" alt="streamline paving homepage">
+        </div>
+
+      </div>
+    </section>
+  </main>
+  <footer id="contact" class="contact">
+    <h3>CONTACT</h3>
+    <p>If you want to send me a message don't hesitate!</p>
+    <form class="contact-form" action="https://formaholic.com/f/de228d37f4d0f378" method="POST" accept-charset="UTF-8">
+      <input type="text" name="name" required="true" placeholder="Your name">
+      <input type="email" name="email" required="true" placeholder="Your email">
+      <textarea name="message" cols="30" rows="10" placeholder="Message"></textarea>
+      <input type="text" name="_gotcha" style="display:none">
+      <div class="lds-ellipsis"><div></div><div></div><div></div><div></div></div>
+      <input type="submit" value="Send">
+    </form>
+    <h4>If you want to know more about me</h4>
+    <div class="icons">
+      <div class="icon">
+        <a href="https://www.linkedin.com/in/brandon-mendez-4b6b9611a/" target="_blank">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </div>
+      <div class="icon">
+        <a href="https://github.com/bmendez0428" target="_blank">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <div class="icon">
+        <a href="mailto:brandonm0428@gmail.com">
+          <i class="far fa-envelope"></i>
+        </a>
+      </div>
+    </div>
+    <p>Brandon Mendez <span class="highlight">&copy; 2019</span></p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
