@@ -19,7 +19,7 @@ h3 {
 }
 
 .highlight {
-  color: #F14F41;
+  color: #d92e31;
 }
 
 /* HEADER */
@@ -76,8 +76,8 @@ h3 {
 }
 
 .intro a:hover {
-  background: #4DCCBD;
-  border-color: #4DCCBD;
+  background: #2cd1ce;
+  border-color: #2cd1ce;
 }
 
 /*NAVIGATION*/
@@ -87,7 +87,7 @@ h3 {
   position: relative;
   width: 100%;
   top: 0;
-  border-bottom: 3px solid #4DCCBD;
+  border-bottom: 3px solid #2cd1ce;
 }
 
 .navigation.fixed {
@@ -136,13 +136,16 @@ h3 {
 }
 
 .navigation .nav-list a:hover {
-  color: #F14F41;
+  color: #d92e31;
 }
 
 /*ABOUT*/
 .about {
   padding: 0 12px;
-  color: #727272;
+  color: #252525;
+  font-size: 18px;
+  line-height: 1.7em;
+  word-wrap: break-word;
 }
 
 .about .about-intro {
@@ -150,7 +153,7 @@ h3 {
 }
 
 .about .about-intro a {
-  color: #F14F41;
+  color: #d92e31;
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -161,7 +164,7 @@ h3 {
 }
 
 .about .img-container img {
-  width: 100%;
+  width: 300px;
   -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.1);
           box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
@@ -196,9 +199,8 @@ h3 {
 
 .about-icons .skills,
 .about-icons .responsive,
-.about-icons .modern,
-.about-icons .dynamic {
-  background: #4DCCBD;
+.about-icons .modern {
+  background: #2cd1ce;
   width: 80px;
   height: 80px;
   display: -webkit-box;
@@ -216,8 +218,7 @@ h3 {
 
 .about-icons .skills i,
 .about-icons .responsive i,
-.about-icons .modern i,
-.about-icons .dynamic i {
+.about-icons .modern i {
   font-size: 3rem;
   color: #252934;
 }
@@ -241,7 +242,7 @@ h3 {
 .skills-list li .label {
   width: 80px;
   padding: 3px 0;
-  background-color: #4DCCBD;
+  background-color: #2cd1ce;
   text-align: center;
   color: #f1f1f1;
 }
@@ -253,7 +254,7 @@ h3 {
 }
 
 .skills-list .bar {
-  background-color: #2e9f92;
+  background-color: #1f9290;
   -webkit-transition: all 0.8s;
   transition: all 0.8s;
   height: 100%;
@@ -282,7 +283,7 @@ h3 {
   position: absolute;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  background-color: #4DCCBD;
+  background-color: #2cd1ce;
   height: 4px;
   bottom: 0;
   left: 0;
@@ -355,8 +356,8 @@ h3 {
 .projects .layer a {
   display: inline-block;
   padding: 10px 15px;
-  border: 2px solid #F14F41;
-  color: #F14F41;
+  border: 2px solid #d92e31;
+  color: #d92e31;
   text-decoration: none;
   -webkit-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
@@ -409,7 +410,7 @@ h3 {
 
 .contact input[type="text"],
 .contact input[type="email"] {
-  border-bottom: 2px solid #4DCCBD;
+  border-bottom: 2px solid #2cd1ce;
 }
 
 .contact input[type="submit"] {
@@ -425,12 +426,12 @@ h3 {
 }
 
 .contact input[type="submit"]:hover {
-  background-color: #4DCCBD;
-  border-color: #4DCCBD;
+  background-color: #2cd1ce;
+  border-color: #2cd1ce;
 }
 
 .contact h4 {
-  color: #4DCCBD;
+  color: #2cd1ce;
   font-size: 0.7rem;
   margin-bottom: 25px;
 }
@@ -460,7 +461,7 @@ h3 {
 .contact .icon:hover {
   -webkit-transform: scale(0.95);
           transform: scale(0.95);
-  background: #4DCCBD;
+  background: #2cd1ce;
 }
 
 .contact .icon a {

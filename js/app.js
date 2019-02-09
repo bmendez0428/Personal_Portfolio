@@ -100,15 +100,18 @@ const percentages = document.querySelectorAll('.value');
 const projContainer = document.querySelector('.projects .container');
 const projects = document.querySelectorAll('.mix');
 const skillsValues = [
-  {val: 89},
-  {val: 80},
-  {val: 80},
-  {val: 70},
+  {val: 90}, 
+  {val: 80}, 
+  {val: 85}, 
+  {val: 75}, 
+  {val: 75},
+  {val: 60}, 
+  {val: 55},
+  {val: 55},
   {val: 50},
-  {val: 40},
   {val: 50}
-];
-
+  
+]
 window.addEventListener('scroll', function scrollListener() {
     const topOfIconsContainer = iconsContainer.getBoundingClientRect().top;
     /* When scroll pass the half of icons container */

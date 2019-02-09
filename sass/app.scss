@@ -1,6 +1,6 @@
 $primary-color: #252934;
-$secondary-color: #4DCCBD;
-$highlight-color: #F14F41;
+$secondary-color: #2cd1ce;
+$highlight-color: #d92e31;
 $text-color: #f1f1f1;
 
 /* Global styles */
@@ -137,7 +137,10 @@ h3 {
 
 .about {
   padding: 0 12px;
-  color: darken($text-color, 50%);
+  color: darken($text-color, 80%);
+  font-size: 18px;
+  line-height: 1.7em;
+  word-wrap: break-word;
 
   .about-intro {
     line-height: 1.7em;
@@ -154,14 +157,12 @@ h3 {
     margin: 0 auto;
 
     img {
-      width: 100%;
+      width: 300px;
       box-shadow: 0 0 1px 1px rgba(0,0,0,0.1);
       border-radius: 10px;
     }
   }
 }
-
-
 
 /* ICONS SECTION */
 .about-icons {
@@ -187,7 +188,7 @@ h3 {
   .skills,
   .responsive,
   .modern,
-  .dynamic {
+   {
     background: $secondary-color;
     width: 80px;
     height: 80px;

@@ -15,7 +15,7 @@ h3 {
   font-size: 2.1rem; }
 
 .highlight {
-  color: #F14F41; }
+  color: #d92e31; }
 
 /* HEADER */
 #particles-js {
@@ -56,8 +56,8 @@ h3 {
     display: inline-block;
     padding: 10px 12px; }
     .intro a:hover {
-      background: #4DCCBD;
-      border-color: #4DCCBD; }
+      background: #2cd1ce;
+      border-color: #2cd1ce; }
 
 /*NAVIGATION*/
 .navigation {
@@ -66,7 +66,7 @@ h3 {
   position: relative;
   width: 100%;
   top: 0;
-  border-bottom: 3px solid #4DCCBD; }
+  border-bottom: 3px solid #2cd1ce; }
   .navigation.fixed {
     position: fixed;
     z-index: 2; }
@@ -101,23 +101,26 @@ h3 {
       padding: 15px 0;
       transition: color 0.3s; }
       .navigation .nav-list a:hover {
-        color: #F14F41; }
+        color: #d92e31; }
 
 /*ABOUT*/
 .about {
   padding: 0 12px;
-  color: #727272; }
+  color: #252525;
+  font-size: 18px;
+  line-height: 1.7em;
+  word-wrap: break-word; }
   .about .about-intro {
     line-height: 1.7em; }
     .about .about-intro a {
-      color: #F14F41;
+      color: #d92e31;
       text-decoration: none;
       text-transform: uppercase; }
   .about .img-container {
     width: 200px;
     margin: 0 auto; }
     .about .img-container img {
-      width: 100%;
+      width: 300px;
       box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.1);
       border-radius: 10px; }
 
@@ -137,9 +140,8 @@ h3 {
       margin: 0; }
   .about-icons .skills,
   .about-icons .responsive,
-  .about-icons .modern,
-  .about-icons .dynamic {
-    background: #4DCCBD;
+  .about-icons .modern {
+    background: #2cd1ce;
     width: 80px;
     height: 80px;
     display: flex;
@@ -149,8 +151,7 @@ h3 {
     border-radius: 10px; }
     .about-icons .skills i,
     .about-icons .responsive i,
-    .about-icons .modern i,
-    .about-icons .dynamic i {
+    .about-icons .modern i {
       font-size: 3rem;
       color: #252934; }
 
@@ -167,7 +168,7 @@ h3 {
     .skills-list li .label {
       width: 80px;
       padding: 3px 0;
-      background-color: #4DCCBD;
+      background-color: #2cd1ce;
       text-align: center;
       color: #f1f1f1; }
     .skills-list li .bar-container {
@@ -175,7 +176,7 @@ h3 {
       position: relative;
       background-color: #cbcbcb; }
   .skills-list .bar {
-    background-color: #2e9f92;
+    background-color: #1f9290;
     transition: all 0.8s;
     height: 100%;
     width: 0; }
@@ -195,7 +196,7 @@ h3 {
     .projects .controls .highlighter {
       position: absolute;
       transition: all 0.3s;
-      background-color: #4DCCBD;
+      background-color: #2cd1ce;
       height: 4px;
       bottom: 0;
       left: 0; }
@@ -243,14 +244,12 @@ h3 {
     .projects .layer a {
       display: inline-block;
       padding: 10px 15px;
-      border: 2px solid #F14F41;
-      color: #F14F41;
+      border: 2px solid #d92e31;
+      color: #d92e31;
       text-decoration: none;
       transition: all 0.3s ease-out;
       transform: translateY(200%); }
-    .projects .layer:hover a,
-    .projects .layer:hover h4,
-    .projects .layer:hover strong {
+    .projects .layer:hover a, .projects .layer:hover h4, .projects .layer:hover strong {
       transform: translateY(0); }
 
 /* FOOTER */
@@ -280,7 +279,7 @@ h3 {
     border: none; }
   .contact input[type="text"],
   .contact input[type="email"] {
-    border-bottom: 2px solid #4DCCBD; }
+    border-bottom: 2px solid #2cd1ce; }
   .contact input[type="submit"] {
     margin: 10px auto;
     background: transparent;
@@ -291,10 +290,10 @@ h3 {
     cursor: pointer;
     transition: all 0.2s; }
     .contact input[type="submit"]:hover {
-      background-color: #4DCCBD;
-      border-color: #4DCCBD; }
+      background-color: #2cd1ce;
+      border-color: #2cd1ce; }
   .contact h4 {
-    color: #4DCCBD;
+    color: #2cd1ce;
     font-size: 0.7rem;
     margin-bottom: 25px; }
   .contact .icons {
@@ -312,7 +311,7 @@ h3 {
     transition: all 0.3s; }
     .contact .icon:hover {
       transform: scale(0.95);
-      background: #4DCCBD; }
+      background: #2cd1ce; }
     .contact .icon a {
       text-decoration: none;
       display: flex;
@@ -331,6 +330,7 @@ h3 {
   .intro {
     text-align: center;
     font-size: 2.5rem; }
+
   .navigation button {
     display: none; }
   .navigation .nav-list {
@@ -338,15 +338,18 @@ h3 {
     height: 100%;
     display: flex;
     justify-content: space-evenly; }
+
   .about-intro,
   .about-passion,
   .about-icons,
   .skills-list {
     width: 540px;
     margin: 20px auto; }
+
   .projects .container {
     width: 500px;
     margin: 20px auto; }
+
   .contact .contact-form {
     width: 540px;
     opacity: 0;
@@ -354,7 +357,6 @@ h3 {
     transition-timing-function: ease-in-out; }
     .contact .contact-form.show {
       animation: formScale 0.6s forwards; } }
-
 @media screen and (min-width: 780px) {
   .about-intro-wrapper {
     display: flex;
@@ -367,9 +369,11 @@ h3 {
       width: 65%;
       margin-top: 0;
       font-size: 1.2rem; }
+
   .about-passion {
     width: 90%;
     text-align: center; }
+
   .about-icons {
     width: 90%; }
     .about-icons .icon {
@@ -380,8 +384,10 @@ h3 {
       .about-icons .icon.show {
         opacity: 1;
         transform: scale(1); }
+
   .projects .controls button {
     font-size: 1.2rem; }
+
   .projects .container {
     width: 90%;
     display: flex;
@@ -396,11 +402,9 @@ h3 {
         transform: translateY(0); }
     .projects .container img {
       height: 100%; } }
-
 @media screen and (min-width: 1150px) {
   .projects .container .mix {
     width: 33%; } }
-
 /*SPINNER*/
 .lds-ellipsis {
   display: none;
@@ -438,19 +442,16 @@ h3 {
     transform: scale(0); }
   100% {
     transform: scale(1); } }
-
 @keyframes lds-ellipsis3 {
   0% {
     transform: scale(1); }
   100% {
     transform: scale(0); } }
-
 @keyframes lds-ellipsis2 {
   0% {
     transform: translate(0, 0); }
   100% {
     transform: translate(19px, 0); } }
-
 /*Loop for animating about icons*/
 .about-icons .icon:nth-child(1) {
   transition-delay: 0.25s; }
@@ -470,7 +471,6 @@ h3 {
     border-right-color: transparent; }
   to {
     border-right-color: #f1f1f1; } }
-
 /*Animation for contact form*/
 @keyframes formScale {
   0% {
@@ -488,3 +488,5 @@ h3 {
   100% {
     opacity: 1;
     transform: scaleX(1); } }
+
+/*# sourceMappingURL=app.css.map */
