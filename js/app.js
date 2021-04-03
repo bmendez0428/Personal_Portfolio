@@ -104,11 +104,11 @@ const skillsValues = [
   {val: 80}, 
   {val: 85}, 
   {val: 75}, 
-  {val: 75},
+  {val: 80},
   {val: 60}, 
   {val: 55},
   {val: 55},
-  {val: 50},
+  {val: 65},
   {val: 50}
   
 ]
